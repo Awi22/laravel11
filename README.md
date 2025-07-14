@@ -64,3 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Settingannya
+
+Laragon
+PHP : Minimal 8 => 8.1 atau 8.3 tapi yang dipakai 8.3
+Setting : Matikan Apache, Nyalakan Nginx. Nginx diatur ke port 80 agar port nya tidak tampil di url
+
+Tailwind CSS v3
+cek di Docs tailwind, kemudian pilih Framework guides
+"npm run dev" harus tetap berjalan ketika web dirunning
+dalam folder public, css dan js bisa dihapus saja
+install font dengan insert fontFamily di tailwind.config.js
+
+Alpine JS v3
